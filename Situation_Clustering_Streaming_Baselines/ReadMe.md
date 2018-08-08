@@ -1,4 +1,4 @@
-This is a basic demo of streaming version code of situation clustering.  It takes a JSON-line file as an input, but can be seen like a simulation of streaming through processing algorithm line by line so to form the basic framework of codes in practice.
+This is a basic demo of streaming version code of situation clustering based on several resonable baselines.  It takes a JSON-line file as an input, but can be seen like a simulation of streaming through processing algorithm line by line so to form the basic framework of codes in practice.
 
 
 1. Initialize the algorithm and assign input file (JSON line)and output file (situation clustering result)
