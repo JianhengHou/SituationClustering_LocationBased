@@ -8,7 +8,7 @@ Codes between the '*' are data structures which are used for getting the precisi
 
 # from GPE import *
 # from GPE_topics1 import *
-from GPE_topics2 import *
+from LocationTopics import *
 
 
 class SituationClustering():
@@ -26,7 +26,7 @@ class SituationClustering():
             elif model_name == 'GPE_topics1':
                 self.model = GPE_topics1(self.output_path)
             elif model_name == 'location+topics':
-                self.model = GPE_topics2(self.output_path)
+                self.model = LocationTopics(self.output_path)
         except IOError:
             print "Error: Please select a situation clustering model."
 
@@ -51,6 +51,6 @@ class SituationClustering():
 
 
 SC = SituationClustering(input_path='test_streaming_all.txt',
-                         output_path='clustering_result_streaming_basic(gpe_geo_topics_type).txt', input_size=10000,
+                         output_path='clustering_result_streaming_basic(gpe_geo_topics_type).txt',
                          model_name='location+topics')
 SC.run()

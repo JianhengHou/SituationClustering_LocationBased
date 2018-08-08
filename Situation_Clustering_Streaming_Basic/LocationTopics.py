@@ -9,7 +9,7 @@ Codes between the '*' are data structures which are used for getting the precisi
 import json
 
 
-class GPE_topics2(object):
+class LocationTopics(object):
     def __init__(self,output_path):
         try:
             self.f = open(output_path, 'wb')
