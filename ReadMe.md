@@ -13,4 +13,4 @@ If all tweets need to be processed, commend should be like this:
 	
 If one wants to set stop point to run the code, commend should be like this:
 
-	python SituationClustering.py -input input_sample.txt -output output_all_stop_point.txt -stop_point 500
+	python SituationClustering.py -input input_sample.txt -output output_stop_point.txt -stop_point 500
