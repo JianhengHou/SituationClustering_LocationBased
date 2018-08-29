@@ -1,11 +1,4 @@
 # coding: utf-8
-
-'''
-
-Codes between the '*' are data structures which are used for getting the precision recall and f score
-
-'''
-
 import json
 
 
